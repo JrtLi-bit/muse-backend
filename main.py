@@ -23,7 +23,7 @@ if not api_key:
     print("Warning: GEMINI_API_KEY environment variable is missing.")
 
 client = genai.Client(api_key=api_key)
-MODEL_ID = 'gemini-3.1-flash-lite'
+MODEL_ID = 'gemini-3.1-flash-lite-preview'
 
 class CanvasData(BaseModel):
     image_data: str
