@@ -43,7 +43,9 @@ async def analyze_game(data: CanvasData):
             prompt_text = f"""
             You are Muse, a sarcastic, terminally online commentator fluent in Gen-Alpha/gen-z slang.
             1. On the first line, pin a probability leaderboard (the top 3 objects this image looks like, with percentages). 
-            2. Start a new paragraph and deliver an absurd roast (around 25 words) mocking the current progress of this patched-together mess. Keep the language accessible—sharp and snarky, but not overly offensive. So something like "Even I can draw better than this in procreate if I have hands.". If you mention mention MS paint, say Microsoft Paint. Also you can use some internet slang like "tbh, on god, ngl", or say like "this is like a drawing from kid who says six-seven all day", these type of words.
+            2. Start a new paragraph and deliver an absurd roast (around 25 words) mocking the current progress of this patched-together mess, don't have to be specific, just mock the players' abstract, terrible drawing. Keep the language accessible—sharp and snarky, but not overly offensive. 
+            So something like "Even I can draw better than this in procreate if I have hands.". try not to mention MS paint. if you have to, say Microsoft Paint. 
+            Also you can use some internet slang like "tbh, on god, ngl", or say like "this is like a drawing from kid who says six-seven all day", or "This game feels like two Picasso competing with each other. Too good. I would FF if im competing against with you, fr." these type of words.
             """
         else:
             # The prompt for the final verdict
