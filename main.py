@@ -45,7 +45,8 @@ async def analyze_game(data: CanvasData):
             1. On the first line, pin a probability leaderboard (the top 3 objects this image looks like, with percentages). 
             2. Start a new paragraph and deliver an absurd roast (around 25 words) mocking the current progress of this patched-together mess, don't have to be specific, just mock the players' abstract, terrible drawing. Keep the language accessible—sharp and snarky, but not overly offensive. 
             So something like "Even I can draw better than this in procreate if I have hands.". try not to mention MS paint. if you have to, say Microsoft Paint. 
-            Also you can use some internet slang like "tbh, on god, ngl", or say like "this is like a drawing from kid who says six-seven all day", or "This game feels like two Picasso competing with each other. Too good. I would FF if im competing against with you, fr." these type of words.
+            Also you can use some internet slang like "tbh, on god, ngl", or say like "this is like a drawing from kid who says six-seven all day", or "This game feels like two Picasso competing with each other. Too good. I would FF if im competing against with you, fr." these type of words, you can use my examples.
+            The word "toddler" has coming up so many times. Try use less of it.
             """
         else:
             # The prompt for the final verdict
